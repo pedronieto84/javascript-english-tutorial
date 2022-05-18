@@ -1,17 +1,19 @@
-console.log('hello world')
+const name = 'Lie' // Is a string  is text
+const name2= "Pedro"
 
-// const, let and variables
 
-// const is a type of variable that you can't change
+const number = 12 // THis is a number
+const numberAsString = "12" // This is a String
 
-const name = 'Lie'
-console.log('My name is', name)
+const boolean = false // Can be only true or False.
 
-// let is a type of variable that you can change
+const nullDataType = null // Reserves the space on memory byt there is nothing
 
-let name2 = 'Natalie'
-name2 = 'Pedro'
-console.log('Your name is', name2)
+const object = {
+    name: 'Lie',
+    age: 33
+}
 
-// var is like a let but it has some different behaviour over let in relation to the scope
+
+
 
