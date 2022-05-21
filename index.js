@@ -1,30 +1,19 @@
-// PRIMITIVE DATA TYPES
+// This is assigning a value to a variable
+const name = 'Lie'
 
-const name = 'Lie' // Is a string 
+// EVALUATION evaluates if something is true or false
 
-const number = 12 // THis is a number
+const isEqual = (  2 === 3  ) 
+console.log('2 isEqual to 3?', isEqual )
 
-const boolean = false // Can be only true or False.
+// == or ===
+// == is more relaxed and does some deductions of what you are trying to type
+const isEqual2 = ( 2 == '2')
+console.log('isEqual with ==', isEqual2 )
 
-const nullDataType = null // Reserves the space on memory byt there is nothing
-
-let exampleOfUndefined; // Example of a data that is undefined
-console.log(exampleOfUndefined)
-
-
-// Non PRIMITIVE DATA TYPES
-const object = {
-    name: 'Lie',
-    age: 33
-}
-
-function exampleOfFunction(){
-    console.log('i am a funciton')
-}
-
-exampleOfFunction()
-
-
+// === is more strict in the evaluations and compares also de dataType
+const isEqual3 = ( 2 === '2')
+console.log('isEqual with ===', isEqual3 )
 
 
 
